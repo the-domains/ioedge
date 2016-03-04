@@ -1,28 +1,40 @@
-name: ioedge
 favicon: null
-layout_spectrum: 0.7288814184721559
-typography_spectrum: 0.6220638731028885
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: ioedge
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.687234
+  brandStrength: 0.4276596
+  lightness: 0.5085106
   brandColors:
     - '#F7EDF0'
     - '#F4CBC6'
     - '#F4AFAB'
     - '#F4EEA9'
     - '#F4F482'
-  brandStrength: 0.015215680934488773
-  lightness: 0.16084193345159292
-  saturation: 0.8076511910185218
-  rhythmicContrast: 0.19134927773848176
-purpose: []
+  rhythmicContrast: 0.6957447
+typography_spectrum: 0.4212766
+layout_spectrum: 0.7288814184721559
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
